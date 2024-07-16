@@ -12,7 +12,7 @@ A Simple telegram bot written in python to forward your files from one channel t
 Use these commands:
 <br>
 <br>
-• Build Command: <code>pip install --upgrade -U -r requirements.txt</code>
+• Build Command: <code>pip install --upgrade --force-reinstall aiohttp pip install --no-binary :all: aiohttp pip install --upgrade pip  -r requirements.txt</code>
 <br>
 <br>
 • Start Command: <code>gunicorn app:app & python3 bot.py</code>
